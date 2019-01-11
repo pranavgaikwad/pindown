@@ -10,5 +10,5 @@ This repo contains the source for a kernel module which could be built along wit
 setfattr -n "security.pindown" -v "/bin/cat\0" <filename>
 ```
 
-This attribute tells PinDown that the <filename> could be only accessed by the program */bin/cat*
+This attribute tells PinDown that the <filename> could be only accessed by the program ***/bin/cat***
 
