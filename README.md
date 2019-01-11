@@ -16,3 +16,6 @@ setfattr -n "security.pindown" -v "/bin/cat\0" <filename>
 
 This attribute tells PinDown that the <filename> could be only accessed by the program ***/bin/cat***
 
+## Credits
+
+This project was submitted as a part of my course at NC State University. The original work on which this project is based was published by Dr. William Enck, et al. The publication could be found [here](https://enck.org/pubs/acsac08a.pdf).
